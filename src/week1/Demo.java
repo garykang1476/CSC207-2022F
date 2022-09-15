@@ -4,6 +4,6 @@ package week1;
 // commit + push
 public class Demo {
     public static void main(String[] args) {
-        System.out.println("This is the main");
+        System.out.println("This is the updated version!!!");
     }
 }
