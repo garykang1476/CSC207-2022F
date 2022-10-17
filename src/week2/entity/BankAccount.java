@@ -1,5 +1,7 @@
 package week2.entity;
 
+import week2.NSFException;
+
 public abstract class BankAccount {
 
     private int accNum;
@@ -16,7 +18,7 @@ public abstract class BankAccount {
         balance = balance + amount;
     }
 
-    public abstract void withdrawal(int amount);
+    public abstract void withdrawal(int amount) throws NSFException;
 
     public int checkBalance(){
         return balance;
